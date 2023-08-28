@@ -1,0 +1,213 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Montserrat:wght@600;700&display=swap');
+
+body {
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.header {
+  padding-top: 40px;
+}
+
+.header-logo {
+  color: #244D4D;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.header-list {
+  width: 478px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* column-gap: 20px; */
+
+
+}
+
+.list-item {
+  color: #161616;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
+.nav-items {
+  width: 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+
+
+section:not(:first-child) {
+  margin-top: 140px;
+}
+
+section:first-child {
+  margin-top: 26px;
+}
+
+
+
+.hero-container {
+  background: #154444;
+  column-gap: 100px;
+  height: 560px;
+
+}
+
+
+
+.hero-text {
+  padding-right: 20px;
+}
+
+.hero-header {
+  max-width: 671px;
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.hero-paragraph {
+  max-width: 488px;
+
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 125% */
+  padding: 20px 0 50px 0;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 172.576px;
+  height: 56px;
+  background: #FFF;
+  color: #154444;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 125% */
+
+  transition: 0.3s;
+}
+
+.cta:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+
+.brands-header {
+  color: #244D4D;
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 47px;
+}
+
+.brands-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.about-us-container {
+  justify-content: space-between;
+
+}
+
+.about-us-info {
+  max-width: 436px;
+}
+
+.about-us-header {
+  color: #244D4D;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  /* 125% */
+  margin-bottom: 20px;
+}
+
+.about-us-p {
+  color: #444;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  /* 125% */
+  margin-bottom: 40px;
+}
+
+.about-us-advantages {
+  max-width: 376px;
+  display: flex;
+  margin-bottom: 30px;
+  column-gap: 28px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+
+.adv-header {
+  color: #244D4D;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  /* 130% */
+  margin-bottom: 14px;
+}
+
+.adv-p {
+  color: #383738;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  /* 150% */
+}
